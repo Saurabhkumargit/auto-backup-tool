@@ -127,7 +127,7 @@ on:
 
 ---
 
-## 📸 Screenshots / Proof of Work
+## 📸 Proof of Work
 
 ### ✔ Backup file created  
 ```
