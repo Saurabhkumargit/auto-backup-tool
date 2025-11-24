@@ -1,8 +1,13 @@
 <!-- Badges -->
 ![Backup Workflow](https://github.com/saurabhkumargit/auto-backup-tool/actions/workflows/backup.yml/badge.svg)
-![bash](https://img.shields.io/badge/language-bash-blue)
+![Language](https://img.shields.io/badge/language-bash-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/saurabhkumargit/auto-backup-tool)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Repo Size](https://img.shields.io/github/repo-size/saurabhkumargit/auto-backup-tool)
+![Stars](https://img.shields.io/github/stars/saurabhkumargit/auto-backup-tool)
+![Forks](https://img.shields.io/github/forks/saurabhkumargit/auto-backup-tool)
+![Issues](https://img.shields.io/github/issues/saurabhkumargit/auto-backup-tool)
+
 
 
 # 🗄️ Auto Backup Tool
