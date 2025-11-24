@@ -42,7 +42,7 @@ auto-backup-tool/
 │── backups/
 │── .github/
 │     └── workflows/
-│           └── backup.yml  (optional)
+│           └── backup.yml 
 │── README.md
 ```
 
