@@ -2,8 +2,8 @@ name: Automated Backup
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every day at midnight (00:00 UTC)
-  workflow_dispatch:       # allows manual run from GitHub UI
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   run-backup:
@@ -13,11 +13,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Prepare CI logs folder
+        run: |
+          mkdir -p $HOME/logs
+          echo "CI backup test log" > $HOME/logs/test.log
+
       - name: Set execute permissions
         run: chmod +x backup.sh cleanup.sh
 
-      - name: Run backup script
+      - name: Run backup
         run: ./backup.sh
 
-      - name: Run cleanup script
+      - name: Run cleanup
         run: ./cleanup.sh

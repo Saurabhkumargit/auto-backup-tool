@@ -31,4 +31,5 @@ tar -czf "$BACKUP_FILE" "$SOURCE_DIR"
 # Log entry
 echo "$(date): Backup created -> $BACKUP_FILE" >> "$LOG_FILE"
 
+
 echo -e "${GREEN}Backup successful:${NC} $BACKUP_FILE"
