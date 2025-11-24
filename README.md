@@ -1,3 +1,10 @@
+<!-- Badges -->
+![Backup Workflow](https://github.com/saurabhkumargit/auto-backup-tool/actions/workflows/backup.yml/badge.svg)
+![bash](https://img.shields.io/badge/language-bash-blue)
+![Last Commit](https://img.shields.io/github/last-commit/saurabhkumargit/auto-backup-tool)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+
 # 🗄️ Auto Backup Tool
 
 A lightweight, automated backup and cleanup tool written in **Bash**, designed for practicing DevOps fundamentals.  
