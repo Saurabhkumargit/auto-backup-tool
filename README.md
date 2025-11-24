@@ -1,5 +1,5 @@
 <!-- Badges -->
-![DevOps](https://img.shields.io/badge/DevOps-Automation-blueviolet)git a
+![DevOps](https://img.shields.io/badge/DevOps-Automation-blueviolet)
 ![Backup Workflow](https://github.com/saurabhkumargit/auto-backup-tool/actions/workflows/backup.yml/badge.svg)
 ![Language](https://img.shields.io/badge/language-bash-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/saurabhkumargit/auto-backup-tool)
