@@ -2,8 +2,8 @@ name: Automated Backup
 
 on:
   schedule:
-    - cron: "0 0 * * *"      # every night at midnight
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # runs every day at midnight (00:00 UTC)
+  workflow_dispatch:       # allows manual run from GitHub UI
 
 jobs:
   run-backup:
@@ -13,8 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Run backup
-        run: bash backup.sh
+      - name: Set execute permissions
+        run: chmod +x backup.sh cleanup.sh
 
-      - name: Run cleanup
-        run: bash cleanup.sh
+      - name: Run backup script
+        run: ./backup.sh
+
+      - name: Run cleanup script
+        run: ./cleanup.sh
